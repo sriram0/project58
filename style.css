@@ -1,0 +1,58 @@
+code {
+    font-size: 3em;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    border: 5px ridge yellow;
+    width: 40%;
+}
+
+div {
+    background: linear-gradient(to bottom, lightgreen 0%, yellow 90%, aqua 100%);
+    padding: 7px;
+    margin: 10px;
+    height: 600px;
+    width: 100%;
+}
+
+#Home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Home h3{
+    display: block;
+}
+ul {
+    list-style: none;
+}
+
+#menu {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    background: white;
+}
+
+#menu li {
+    float: left;
+    margin-left: 15%;
+}
+
+#menu li:hover {
+    border: 2px solid yellow;
+    background: aqua;
+    text-decoration: underline;
+    padding: 2px;
+    color: green;
+    font-weight: bold;
+}
+
+h1 {
+    margin-top: 40px;
+}
